@@ -1,0 +1,29 @@
+{
+    "name": "andreapollastri/laracheck-client",
+    "description": "Laravel Package for Laracheck.",
+    "homepage": "https://github.com/andreapollastri/laracheck-client",
+    "license": "MIT",
+    "type": "package",
+    "require": {
+        "php": "^8.3",
+        "illuminate/support": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Andr3a\\Laracheck\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Andr3a\\Laracheck\\LaracheckServiceProvider"
+            ],
+            "aliases": {
+                "Laracheck": "Andr3a\\Laracheck\\LaracheckFacade"
+            }
+        }
+    }
+}
