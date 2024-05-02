@@ -1,10 +1,10 @@
 <?php
 
-namespace Andr3a\Laracheck;
+namespace Andr3a\Laracheck\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class LaracheckFacade extends Facade
+class Laracheck extends Facade
 {
     /**
      * Get the registered name of the component.
