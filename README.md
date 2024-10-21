@@ -4,7 +4,7 @@
 <img src="https://raw.githubusercontent.com/andreapollastri/laracheck/refs/heads/main/_art/dashboard.png" style="width:100%;">
 </center>
 
-## Introduction
+#### Introduction
 
 This project is the client package of Laracheck.
 
@@ -12,7 +12,7 @@ Laracheck is a simple-to-use Laravel error tracker and application uptime monito
 
 For more info about Laracheck, visit: https://github.com/andreapollastri/laracheck
 
-## Installation
+#### Installation
 
 - Install it via Composer:
 
@@ -42,15 +42,15 @@ LARACHECK_ENDPOINT=<YOUR-LARACHECK-API-URL>
 
 > The endpoint is the Laracheck URL plus /api/bugs path (e.g. https://laracheck.site.com/api/bugs)
 
-## Licence
+#### License
 
 Laracheck is an open-source software licensed under the MIT license.
 
-## Contributing
+#### Contributing
 
 Thank you for considering contributing to this project (Pull Requests, Issues, Feedbacks, Stars, Promo, Beers) :)
 
-## Support
+#### Support
 
 Need support with Laracheck? Please open an issue here: https://github.com/andreapollastri/laracheck/issues.
 
